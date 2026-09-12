@@ -1,0 +1,7 @@
+{
+  "name": "pitch-vision-api",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": { "express": "^5.1.0", "serverless-http": "^3.2.0", "@aws-sdk/client-s3": "^3.800.0" }
+}

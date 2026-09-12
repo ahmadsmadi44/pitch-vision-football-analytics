@@ -1,0 +1,41 @@
+{
+  "fixture": "Liverpool vs Real Madrid",
+  "competition": "UEFA Champions League final",
+  "season": "2021-22",
+  "clip": "liverpool_madrid_5min.mp4",
+  "clipStart": "00:00",
+  "clipDurationSeconds": 330.833333,
+  "directions": {
+    "Liverpool": "right-to-left",
+    "Real Madrid": "left-to-right"
+  },
+  "lineups": {
+    "Liverpool": [
+      {"number": 1, "name": "Alisson", "position": "GK"},
+      {"number": 66, "name": "Trent Alexander-Arnold", "position": "RB"},
+      {"number": 5, "name": "Ibrahima Konate", "position": "RCB"},
+      {"number": 4, "name": "Virgil van Dijk", "position": "LCB"},
+      {"number": 26, "name": "Andrew Robertson", "position": "LB"},
+      {"number": 3, "name": "Fabinho", "position": "DM"},
+      {"number": 14, "name": "Jordan Henderson", "position": "RCM"},
+      {"number": 6, "name": "Thiago Alcantara", "position": "LCM"},
+      {"number": 11, "name": "Mohamed Salah", "position": "RW"},
+      {"number": 10, "name": "Sadio Mane", "position": "CF"},
+      {"number": 23, "name": "Luis Diaz", "position": "LW"}
+    ],
+    "Real Madrid": [
+      {"number": 1, "name": "Thibaut Courtois", "position": "GK"},
+      {"number": 2, "name": "Dani Carvajal", "position": "RB"},
+      {"number": 3, "name": "Eder Militao", "position": "RCB"},
+      {"number": 4, "name": "David Alaba", "position": "LCB"},
+      {"number": 23, "name": "Ferland Mendy", "position": "LB"},
+      {"number": 14, "name": "Casemiro", "position": "DM"},
+      {"number": 10, "name": "Luka Modric", "position": "RCM"},
+      {"number": 8, "name": "Toni Kroos", "position": "LCM"},
+      {"number": 15, "name": "Federico Valverde", "position": "RW"},
+      {"number": 9, "name": "Karim Benzema", "position": "CF"},
+      {"number": 20, "name": "Vinicius Junior", "position": "LW"}
+    ]
+  },
+  "identityStatus": "Roster supplied by Ahmad; track-to-player identities still require visual anchors or reviewed assignment."
+}

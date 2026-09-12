@@ -1,0 +1,6 @@
+node_modules/
+.env
+data/matches/*/video.mp4
+data/matches/*/thumbnails/
+frontend/dist/
+.aws-sam/

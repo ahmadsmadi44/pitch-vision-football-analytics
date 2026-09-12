@@ -1,0 +1,12 @@
+# Install torch FIRST, separately, with the CUDA build matching your GPU driver --
+# see https://pytorch.org/get-started/locally/ for the exact command. `pip install
+# torch` with no extra index/version flags often silently installs a CPU-only build.
+# Once torch is installed correctly, install the rest with:
+#   pip install -r requirements.txt
+ultralytics>=8.0
+supervision>=0.20
+opencv-python>=4.8
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scikit-learn>=1.3

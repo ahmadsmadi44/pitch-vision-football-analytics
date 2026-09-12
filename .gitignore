@@ -1,0 +1,41 @@
+# Local runtimes and dependencies
+.venv/
+**/node_modules/
+**/__pycache__/
+**/.pytest_cache/
+**/dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Large or licensed media/model artifacts
+*.mp4
+*.avi
+*.mov
+*.pt
+*.pth
+*.onnx
+*.pickle
+*.pkl
+models/
+input_videos/*
+!input_videos/*-lineup.json
+output_videos/
+
+# Generated training datasets and download artifacts
+training/soccertrack_yolo_dataset/
+training/*.zip
+training/zi*
+
+# Generated evaluation and scratch output
+validation/
+_frame_check/
+_frame_check2/
+archive/
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.vscode/

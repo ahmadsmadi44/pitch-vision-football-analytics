@@ -2,7 +2,9 @@
 
 Pitch Vision turns match footage into an explorable 105 × 68 m tactical view. The current demo processes a five-minute tactical-camera excerpt from Liverpool vs Real Madrid with a dual-model detector, temporal team classification, moving-camera pitch registration, formation-seeded identities, short-gap interpolation, activity ratings, heatmaps, phase labels, block estimates, pressure candidates, passing-lane geometry, and rules-based coaching hypotheses.
 
-The React interface lives in `pitch-vision-platform/frontend`. The Express API lives in `pitch-vision-platform/backend`. The Python tactical pipeline lives in `tactical`.
+## Source layout
+
+The complete reviewed source is browsable in this repository. The React interface lives in `pitch-vision-platform/frontend`, the Express API lives in `pitch-vision-platform/backend`, and the Python tactical pipeline lives in `tactical`. The processed five-minute tactical export, tests, notebooks, and all 22 player portraits are included directly in their relevant folders.
 
 ## Run the interface
 
